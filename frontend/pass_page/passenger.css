@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation button{
+    width: 50vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main input{
+    width: 70vw;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.selection label{
+    width: fit-content;
+}
+
+.selection input{
+    width: fit-content;
+    align-self: center;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+}
+
+.search_login{
+    display: flex;
+    flex-direction: column;
+}
+.search_login button{
+width: 30vw;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
