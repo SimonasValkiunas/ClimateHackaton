@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        #map {
+            height: 100%;
+            width: 30vw;
+            margin-left: 70vw;
+        }
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script src="map.js"></script>
+
+  </head>
+<div id="map" style="position: relative; overflow: hidden;">
+    <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"></div>
+</div>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAZjwprSFAzdxsQW_p60-dc3e4F1hJUSk&callback=initMap"></script>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drivers Page</title>
+    <script src="driver.js"></script>
+    <link rel="stylesheet" href="driver.css">
+</head>
+<body>
+
+    <div class="navigation">
+        <button id='driver_btn'>I'M A DRIVER</button>
+        <button id='passenger_btn'>I'M A PASSANGER</button>
+    </div>
+    <div class="main">
+        <h1>WHERE ARE YOU GOING?</h1>
+        <div>
+            <label for="origin">FROM:</label>
+            <input type="text" id="origin">
+        </div>
+        <div class="inputs">
+            <label for="destination">TO:</label>
+            <input type="text" id="destination">
+        </div>
+
+        <div class="selection">
+            <label for="one_way">One way</label>
+            <input type="radio" id="one_way" value="one_way"><br>
+            <label for="round_trip">Round trip</label>
+            <input type="radio" id="round_trip" value="round_trip"><br>
+        </div>
+
+        <h1>WHERE ARE YOU GOING?</h1>
+
+        <div class="date">
+            <input type="date">
+            <input type="time">
+            <select id="pass_count">
+                <option value="1">1 passenger</option>
+                <option value="2">2 passenger</option>
+                <option value="3">3 passenger</option>
+                <option value="4">4 passenger</option>
+                <option value="5">5 passenger</option>
+              </select>
+        </div>
+
+        <div class="search_login">
+            <button>Search Driver</button>
+            <a href="/login"><p>Login with facebook</p></a>
+        </div>
+
+        <div class="footer">
+            <p>Don't have account?</p><a href="/signup"><p>Sign up</p></a>            
+        </div>
+
+    </div>
+    
+</body>
+</html>
